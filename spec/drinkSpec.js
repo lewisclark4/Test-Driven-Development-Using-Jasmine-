@@ -4,7 +4,7 @@ describe("Drink", function() {
     drink = new whatCanIDrink;
     });
 
-    describe("set age", function() {
+    describe("What Drink", function() {
 
         it("should return Drink Toddy!", function() {
         var myDrink = whatCanIDrink(10)
@@ -35,6 +35,6 @@ describe("Drink", function() {
         var myDrink = whatCanIDrink("abc")
         expect(myDrink).toBe("Sorry. I can’t tell what drink because that age is incorrect!")
         });
-        
+
     });
 });
